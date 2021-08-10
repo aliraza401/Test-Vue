@@ -17,8 +17,8 @@ export default createStore({
   },
   actions: {
     setNews(context) {
-      const apiKey = "52d7b80182fe485590e3656604acb2e2";
-      const url = `https://newsapi.org/v2/everything?q=tesla&from=2021-07-09&sortBy=publishedAt&apiKey=${apiKey}`;
+      // const apiKey = "abf937b070a14a8f8d6351650ef82e7e";
+      const url = `https://newsapi.org/v2/everything?q=tesla&from=2021-07-10&sortBy=publishedAt&apiKey=abf937b070a14a8f8d6351650ef82e7e`;
 
       axios.get(url).then((result) => {
         const data = result.data.articles;
