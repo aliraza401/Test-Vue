@@ -65,7 +65,7 @@ export default {
   },
   computed: mapGetters(["getNewsList", "getNewsCurrent"]),
   created() {
-    this.setNews();
+    this.setNews(); 
   },
 };
 </script>
